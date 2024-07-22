@@ -70,7 +70,7 @@ jobs:
 
       - name: Build and push
         id: build-and-push
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v6
         with:
           context: .
           platforms: linux/arm/v6,linux/arm/v7,linux/arm64,linux/386,linux/amd64,linux/riscv64,linux/ppc64le,linux/s390x
