@@ -1,4 +1,4 @@
-# syntax = docker/dockerfile:1.5.2
+# syntax = docker/dockerfile:1.12.1
 
 FROM --platform=$BUILDPLATFORM golang:1.22.4-alpine AS builder
 ARG BUILDKIT_SBOM_SCAN_STAGE=true
